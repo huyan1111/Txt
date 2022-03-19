@@ -26,10 +26,3 @@ jobs:
       # Runs a single command using the runners shell
       - name: shell
         run: sh action.sh
-      - name: commit
-        run: |
-          git config --global user.name 'yan'
-          git config --global user.email '17621212167@163.com'
-          git add .
-          git commit -m "1,2"
-          git push
