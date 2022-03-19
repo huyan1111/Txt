@@ -30,5 +30,6 @@ jobs:
         run: |
           git config --global user.name 'yan'
           git config --global user.email '17621212167@163.com'
-          git commit -am "1,2"
+          git add .
+          git commit -m "1,2"
           git push
